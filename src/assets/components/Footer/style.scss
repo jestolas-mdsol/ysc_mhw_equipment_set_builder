@@ -1,0 +1,23 @@
+@import '../../common_stylesheets/constants.scss';
+
+.footer {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #191719;
+  color: white;
+
+  &__heading {
+    color: $footer-white;
+  }
+
+  &__list {
+    list-style-type: none;
+    color: $footer-white;
+  }
+
+  &__links {
+    color: $footer-white;
+  }
+}
